@@ -1,58 +1,109 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página de Inicio</title>
+  <style>
+    /* Estilos básicos para la plantilla */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    
-    <title>Mi plantilla Ruby</title>
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    nav {
+      background: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #575757;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .main {
+      flex: 70%;
+      background: white;
+      padding: 20px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+      margin-right: 20px;
+    }
+
+    .sidebar {
+      flex: 25%;
+      background: #eaeaea;
+      padding: 20px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                <img class="backdrop linktree">
-                <h2 style="color: #ffffff; padding-top: 20px;">Mi curso de Git</h2>
-            </div>
-    </div>
-    </div>
 
+  <!-- Cabecera -->
+  <header>
+    <h1>Bienvenido a Mi Página</h1>
+    <p>Ejemplo de pagina en git</p>
+  </header>
 
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center">
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://platzi.com/cursos/docker-fundamentos/'" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Mi curso de Docker</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='http://aminespinoza.com'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mi sitio web</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.linkedin.com/in/aminespinoza/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Conecta en mi perfil de LinkedIn</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.instagram.com/aminespinoza10/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Visitame en Instagram</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.youtube.com/aminespinoza'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mira mi canal de Youtube</button>
-                </div>
-            </div>
-    </div>
+  <!-- Menú de navegación -->
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Proyectos</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <div class="main">
+      <h2>Sección Principal</h2>
+      <p>
+        Aquí va el contenido principal de tu página.  
+        Puedes agregar texto, imágenes, videos o lo que necesites.  
+      </p>
     </div>
 
-        <div class="text-center">
-            <a href="https://codepen.io/nightcl4w/pen/dEjreJ" style="color: #34312f;" target="_blank">Creado por OrderMerch</a>
-        </div>
+    <aside class="sidebar">
+      <h3>Barra Lateral</h3>
+      <p>Enlaces, anuncios o cualquier información extra que quieras mostrar.</p>
+    </aside>
+  </div>
 
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Mi Página de Inicio - Todos los derechos reservados</p>
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- This pre-lander was created by Brandon Nilsson -->
-    <!-- You're welcome to edit, reproduce and change this template as long as original contributation stays present on the website at all times.  -->
 </body>
-
 </html>
