@@ -1,0 +1,15 @@
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/bin/Debug/net8.0/probando
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/bin/Debug/net8.0/probando.deps.json
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/bin/Debug/net8.0/probando.runtimeconfig.json
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/bin/Debug/net8.0/probando.dll
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/bin/Debug/net8.0/probando.pdb
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/probando.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/probando.AssemblyInfoInputs.cache
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/probando.AssemblyInfo.cs
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/probando.csproj.CoreCompileInputs.cache
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/probando.sourcelink.json
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/probando.dll
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/refint/probando.dll
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/probando.pdb
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/probando.genruntimeconfig.cache
+/workspaces/GeraldiRubyMontesRosas.github.io/probando/obj/Debug/net8.0/ref/probando.dll
